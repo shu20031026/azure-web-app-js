@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-app.get("/v", function(req, res, next) {
-  res.send("v2")
-})
+// app.get("/v", function(req, res, next) {
+//   res.send("v2")
+// })
 
 
 module.exports = router;
